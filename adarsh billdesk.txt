@@ -1,0 +1,12 @@
+1.for change password pan is not present in admin panel thats why issue in change password
+2.please check whether api is consume or not for bill desk ,after submit it is not working --billdesk
+3.pan card details not fetching at the time of registration 
+4.Getting customer not enabled even customer is enabled for new registration.
+5.customer id  details not found ,north east custid present in db  -- resolved
+6.get account details fetching not working  while adding beneficairy -within bank 
+7.select operator is not working in billdesk mobile prepaid
+
+8.While set mpin getting invalid pan -- already pan is there but in admin panel it is not prenet .
+9. mini statement is not working 
+10.chequebook request not working 
+11.

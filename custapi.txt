@@ -1,0 +1,144 @@
+https://nesfbuat.turingcbs.com:7943/turing-crm-api/customer-ind-info/insert
+
+customerIcStr:-1
+SpouseFirstNameStr:kiara
+customerGroupIdLon:1
+MotherFirstNameStr:kavya
+SpouseLastNameStr: abcd
+customerProfileCodeInt: 1
+form60ReasonInt: 1
+customerIdLon: 1
+nationalityCodeLon: 1
+registeredMobileNoStr: 123456789
+riskRatingInt: 3
+relationshipOfficerIdStr: 1
+maritalStatusCodeLon: 1
+salutationStr: miss
+guardianTypeCodeLon: 1
+form61ReasonInt: 1
+SpouseSalutationStr: miss
+aadharNoStr: 123566565656
+ckycrNoStr: -1
+ageGroupInt: 1
+FatherSalutationStr: mr
+firstNameStr: tara
+customeTypeCodeLon: 1
+sexCodeLon: 1
+lastNameStr: singh
+MotherMiddleNameStr: karan
+form60FlagInt: 1
+annualIncomeCategoryCodeLon: 1
+MotherLastNameStr: singh
+customerSubTypeCodeInt: 1
+SpouseMiddleNameStr: kaarn
+defaultAccountNoLon: 1
+employeeIdStr: abcd
+introducersIdLon: 1
+MotherSalutationStr: abcd
+statusCodeLon: 1
+shortNameStr: abcd
+dateOfBirthDtm:02-OCT-1991
+staffFlagInt: 1
+panNoStr: ASPOY4589P
+religionCodeLon: 1
+homeBranchCodeLon: 1
+middleNameStr: abcd
+customerOpenDateDtm:01-Jul-2022
+countryOfResidenceLon: 1
+FatherLastNameStr: abcd
+educationCodeLon: 1
+placeOfBirthStr: AK
+FatherMiddleNameStr: KARA
+FatherFirstNameStr: BGWAN
+fullNameStr: SINGH
+
+-------------------------------
+
+saving creation 
+ /turing-bsgcore-api/account-master/insert:
+
+
+{
+  "id": -1,
+  "accountIdLon": -1,
+  "accountClosureDateDtm": "24-Mar-2029",
+  "customerNoLon": 10,
+  "branchCodeInt": 1,
+  "accountStatusIdLon": 1,
+  "kycOfficer": "1850",
+  "operatingModeInt": 1,
+  "accountTypeIdLon": 1,
+  "operatingInstructionCorpStr": "1",
+  "productCurrencyCur": "1",
+  "accountNameStr": "1",
+  "operatingInstructionIdLon": 1,
+  "groupAccountIdLon": 1,
+  "accountOpenDateDtm": "01-Jan-2023",
+  "customerCategoryIdLon": 1,
+  "lcCode": -1,
+  "productCodeInt": 2506,
+  "minorFlagBit": 1,
+  "lgCode": -1
+}
+
+------------------------------------------------------------------------------------------------
+https://nesfbuat.turingcbs.com:7943/turing-bsgcore-api/account-services/insert_nominee 
+
+accountId: 71746
+nameStr: SACHIN RAM JADHAV
+relationIdLon: 2
+percentageDou: 50
+nomineeAdd1Str: ramanvihar
+nomineeAdd2Str: thane
+nomineeAdd3Str: kopar
+nomineeCityIdLon: 1
+nomineeStateIdLon: 1
+nomineePincodeLon: 444002
+witnessNameStr: -1
+witnessAdd1Str: thane
+witnessAdd2Str: kopar
+witnessAdd3Str: mumbai
+witnessCityIdLon: 2
+witnessStateIdLon: 3
+witnessPincodeLon: 444550
+customerIdLon: 981
+mobileNoStr: 9676551245
+telephoneNoStr: -1
+stdPhoneStr: -1
+emailIdStr: ku@gmail.com
+authorizationStatus: P
+sprinkleStr: qswypczamnjfvfbe
+createdByInt: 1851
+createdDateDtm: 01-Jul-2022
+lastModifiedByInt: 1851
+lastModifiedDateDtm: 01-Jul-2022
+nomineeDateOfBirth: 21-Mar-2006
+ageGroup: 1
+isActive: 2
+guardianNameStr: ram
+guardianRelationIdLon: 1
+guardianCustomerIdLon: -1
+guardianTypeInt: 1
+
+---------------------------------------------------
+/bsgtd-api/td-recurring-deposit-details/insert
+
+{
+  "tdAccountNoLon": 1,
+  "autoPaymentTakeDownBit": 1,
+  "moveMaturitiesToUncliamedBit": 1,
+  "paymentBranchCodeLon": 1,
+  "paymentAccountLon": 1,
+  "installmentAmountDou": 1,
+  "recurrigDepositAccountBit": 1,
+  "paymentDateDtm": "21-Mar-2022",
+  "paymentCurrencyCodeCur": 1,
+  "sprinkleStr": "1",
+  "createdByInt": 1,
+  "createdDateDtm": "21-Mar-2022",
+  "lastModifiedByInt": 1,
+  "lastModifiedDateDtm": "21-Mar-2022"
+}
+
+
+https://10.10.10.137/dashboard/login
