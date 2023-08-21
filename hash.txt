@@ -1,0 +1,42 @@
+
+HAsh querires
+CBS_CREATE_HASH	1 
+
+SELECT 
+                        emp.employee_code,emp.password,emp.employee_id,
+                         emp.branch_id,emp.status_code,emp.mobile,   
+                        au.authentication_type,ds.designation_id 
+                    FROM 
+                        employee_master emp 
+                        INNER JOIN employee_authentication_type au 
+                            ON emp.employee_id=au.employee_id 
+                            and au.is_active=1 
+                        INNER JOIN employee_designation ds 
+                            ON emp.employee_id=ds.employee_id 
+                            and ds.is_active=1 
+                    WHERE 
+                        emp.is_active=1 
+                        and emp.employee_id=1976
+--------------------------------------------------------
+
+select * from BSGADMIN..employee_master where  is_active = 1
+select * from BSGADMIN..employee_authentication_type where employee_id=1976 and is_active = 1
+select * from BSGADMIN..employee_designation where employee_id=1976 and is_active = 1
+select employee_id,0,1,-1950,getdate(),-1950,getdate(),'A' from BSGADMIN..employee_master where is_
+select * from BSGADMIN..employee_authentication_type where employee_id=1976
+
+select * from BSGADMIN..employee_designation
+
+
+select * from BSGADMIN..employee_master where employee_code='ab-m' and is_active = 1
+----------------------------------------------------------
+
+insert into BSGADMIN.dbo.employee_designation
+(
+employee_id, designation_id, is_active, created_by, created_date, last_modified_by, last_modified_date, authorization_status
+) select a.employee_id, case when a.employee_code like '%m%' then 37 
+    when a.employee_code like '%c%' then 39  end  designation_id, 1 is_active, -1 created_by,getdate() created_date,-251 last_modified_by, getdate() last_modified_date, 'A' authorization_status
+from BSGADMIN..employee_master a
+where employee_id not in (select employee_id from BSGADMIN..employee_designation  ) 
+
+-----------
